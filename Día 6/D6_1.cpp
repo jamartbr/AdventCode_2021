@@ -80,8 +80,8 @@ int main()
     string cadena;
     cin >> cadena;
     for (int i=0; i<cadena.size(); i+=2) {
-        Banco banco;
         int n = cadena.at(i)-48;
+        Banco banco;
         banco.insert(n);
     
         for (int j=0; j<80; j++) {
