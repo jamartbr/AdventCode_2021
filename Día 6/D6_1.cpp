@@ -84,7 +84,7 @@ int main()
         int n = cadena.at(i)-48;
         banco.insert(n);
     
-        for (int i=0; i<80; i++) {
+        for (int j=0; j<80; j++) {
             banco.dia();
         }
         
