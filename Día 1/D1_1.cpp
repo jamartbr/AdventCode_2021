@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -6,10 +7,11 @@ int main()
 {
     int primero, segundo, suma=0;
     
-    cin >> primero;
+    ifstream flujo;
+    flujo.open("input.txt");
     
     for (int i=0; i<1999; i++) {
-        cin >> segundo;
+        flujo >> segundo;
         if(segundo>primero) {
             suma++;
         }
