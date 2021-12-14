@@ -23,14 +23,6 @@ int main()
         productos.emplace(necesita, produce);
     }
     
-    /*auto iter = productos.begin();
-    while (iter != productos.end()) {
-        cout << "[" << iter->first << ","
-                    << iter->second << "]\n";
-        ++iter;
-    }
-    cout << endl;*/
-    
     for (int k=0; k<10; k++) {
         for (int i=0; i<cad.size()-1; i+=2) {
             string izq;
